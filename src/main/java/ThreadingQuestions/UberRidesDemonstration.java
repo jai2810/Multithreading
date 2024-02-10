@@ -99,6 +99,7 @@ class UberRide {
         UberRide uberRide = new UberRide();
         Set<Thread> allThreads = new HashSet<>();
 
+        // Adding democrats thread
         for (int i = 0; i < 10; i++) {
             Thread dem = new Thread(new Runnable() {
                 @Override
